@@ -41,8 +41,10 @@ export function handleSubmit(event) {
   }
 }
 
-const form = document.getElementById("settings-form");
-if (form) {
-  form.addEventListener("submit", handleSubmit);
+export function initSettingsForm() {
+  const form = document.getElementById("settings-form");
+  if (form) {
+    form.addEventListener("submit", handleSubmit);
+  }
 }
 
