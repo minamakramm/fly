@@ -5,7 +5,11 @@ import { Navigation } from "@/components/Navigation";
 export const metadata: Metadata = {
   title: "Fly Capstone Application",
   description: "Production-ready Next.js application scaffolded with Server Components, Tailwind CSS, routed placeholder screens, and health check telemetry.",
-  viewport: "width=device-width, initial-scale=1.0",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
