@@ -13,6 +13,7 @@ import {
   X,
   Zap,
   Globe,
+  Sparkles,
 } from "lucide-react";
 
 export function Navigation() {
@@ -21,6 +22,7 @@ export function Navigation() {
 
   const navItems = [
     { label: "Dashboard", path: "/", icon: LayoutDashboard },
+    { label: "AI Chat Stream", path: "/chat", icon: Sparkles },
     { label: "Playground (A11y)", path: "/playground", icon: Zap },
     { label: "Settings", path: "/settings", icon: Settings },
     { label: "Analytics", path: "/analytics", icon: BarChart3 },
