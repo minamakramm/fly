@@ -21,6 +21,7 @@ export function Navigation() {
 
   const navItems = [
     { label: "Dashboard", path: "/", icon: LayoutDashboard },
+    { label: "Playground (A11y)", path: "/playground", icon: Zap },
     { label: "Settings", path: "/settings", icon: Settings },
     { label: "Analytics", path: "/analytics", icon: BarChart3 },
     { label: "Profile", path: "/profile", icon: User },
