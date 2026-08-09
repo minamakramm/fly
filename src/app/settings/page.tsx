@@ -15,7 +15,7 @@ interface FormErrors {
   emailNotifications?: string;
 }
 
-export function validateSettings(values: FormValues): FormErrors {
+function validateSettings(values: FormValues): FormErrors {
   const errors: FormErrors = {};
 
   if (!values.displayName || values.displayName.trim() === "") {
